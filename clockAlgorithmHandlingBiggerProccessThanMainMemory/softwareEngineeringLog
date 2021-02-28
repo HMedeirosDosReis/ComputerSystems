@@ -1,0 +1,14 @@
+Henrique Medeiros dos Reis
+
+Feb/20/2021
+	Started project 1, following the instructions that were given in the handout.
+	I finished the page method and started created the main, I finished the option and input from the user. I need to chose the datastructre and clock algorithm
+	
+Feb/21/2021
+	Started thinking about arrays, it didnt workout. neither did lists. I will be using vectors, since it has some of the functionalities from both arrays and lists. 
+
+Feb/22/2021
+	Finished the program, just needs to test and debug
+	
+Feb/23/2021 
+	Upon testing, im noticing that most part of the program seems to run exactly the same as the predicted calculations and the example runs. But, in the example run, once I fill the memory, I get different outputs, as discussed in the read.me
