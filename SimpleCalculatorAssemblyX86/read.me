@@ -1,0 +1,31 @@
+Henrique Medeiros Dos Reis
+November/29/2020
+
+Plataform used to develop: Linux-Fedora, and the language used Assembly x86
+
+
+	My program has 2 bugs that I was able to notice. 
+	First, this program is not being able to get negative number as input. I can have operations that will generate negative numbers, but I am not being able to get input that is already negative.
+	example: 
+		s 
+		5
+		-
+		9
+		d
+		output: -4
+	this works normally
+	example
+		s
+		-3
+		d
+		output: 0
+	this is the bug
+	
+	Second, it is a small bug relationed with the output. Whenever I use one of these two options, either 'd' or 'b', it will not give me a new line right after the output, the next prompt is right after the number. 
+	
+	In order to compile I just used the following instructions in the command prompt:
+		nasm -felf64 -l simpleCalculator.lst simpleCalculator.asm
+		and 
+		ld -o simpleCalculator simpleCalculator.o
+	
+	I aproaced this project by first thinking about how to create the menu with the options, and thinking how to get the input from the keybord and work with the jumps. After that I started coding the arithmetic problems and the printing options. When I started testing I noticed problems with the output, then I had to work more in how to get the numbers input instead of a string equivalent of them. 
