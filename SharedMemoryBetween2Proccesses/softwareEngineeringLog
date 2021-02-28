@@ -1,0 +1,22 @@
+Henrique Medeiros dos Reis
+
+October/25/2020
+	Started project 1, following the instructions that were given in the handout.
+	First I started with drawing diagrams and trying to understand what was being shared, how to share and how to communicate between the two programs.
+	
+	When I started coding I had a troble with the memory being created any time the program was run, and end up creating hundreds of shared memories that I was not able to access.
+	
+October/26/2020
+	Finally figured out how to solve the problem on creating the shared memories. Now I will try to make it work with only one shared memory. 
+	Trying to make it work with 10. 
+	Cannot do with for or while loops at this point. I will leave this with these bunch of variables for this moment and try to fix it later.
+
+October/30/2020
+	I was able to finish this work with the shared memories, and being able to pick and put in/from the right place in the table, making it impossible to pick from an empty location. Unless it is the only option (needs semaphores to fix), and it no longer can update values that are in the table. However, the program terminates, if I try to put a value where there already is one
+	
+September/31/2020 
+	Finished the problem with the semaphores. The program seems to be working well at this moment, but it does need more testing. 
+	After testing a bunch, I find out to bugs that need to be fixed
+	1- Sometimes the subject waiting longer than needed.
+		When two subjects or more subjects are waiting for a royal to put a value in an empty table, the first value is ignored, and when the second value is entered in the table, it come back to normal.
+	2- When a royal tried to put a value to a full table, it gets killed instead of wait until a subject pick a value from the table. The problem here has to be with the semaphores. But I am not being able to identify what is happening.

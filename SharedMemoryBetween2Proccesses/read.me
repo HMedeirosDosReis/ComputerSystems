@@ -1,0 +1,12 @@
+Henrique Medeiros Dos Reis
+October/31/2020
+
+Plataform used to develop: Linux-Fedora, and the language used is C++
+
+	My program has one bugs that I was not able to identify exactly what was causing this bug and one bug that happens whenever a royal tries to enter a value to the table is full. 
+	The first bug is that when more than 1 subject is waiting on royals to add values to the table, sometimes the table needs to have two values in order to keep a subject be able to pick from the table. I could not find what was causing this bug. 
+	The second bug, happens whenever a Royal tries to add a value to the table and it is full, the program gets "core dumped" and it is killed. This only happens because I am not being able to prevent a Royal to add the value when the table is already full. 
+	
+	In order to compile I just used the make file that is inside this folder and typed make in the command prompt.
+	
+	I aproaced this project by first thinking about what would need to be shared and how to communicate between the two programs using semaphores, which was the only way for them to communicate. Then I started thinking about how to get the shared memory to work properly. Finally, I tried to make use of the semaphores in order to make the programs wait for each other, then solving the consumer/producer problem.
