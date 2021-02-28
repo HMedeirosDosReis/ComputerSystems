@@ -1,0 +1,19 @@
+Henrique Medeiros dos Reis
+
+September/23/2020
+	Started project 1, following the instructions that were given in the handout.
+	First I started with what I thought that would be the easier part. I completed the exit, cd and the simple execvp process that would take only one argument to work.
+	
+	I ran through some issues through forking, making my computer turn off sometimes, but it was pretty cool to see it really working and the progress of the code. It was also possible to listen the computer coolers working more than normal.
+	
+September/24/2020
+	I started working with the inputs and outputs redirection, I didnt think that this part was super hard, it was just a little confusing how to exactly use the dup2 method.
+
+September/25/2020
+	Started to work with the pipes and signals. I had problems with pipes giving me all sorts of bugs, and infinite loops with forks.
+	
+September/26/2020 
+	I came back trying to work with the pipes and the signals, but wasnt very sucessful. I sent an email to the professor trying to get help to understand
+
+September/27/2020 
+	Back on working with pipes and signals. With professor's help I was able to fix the problem with the signals, now it seems to be working correctly. I also made some progress with the pipe, now it is working once and getting back to the same errors I was having.
