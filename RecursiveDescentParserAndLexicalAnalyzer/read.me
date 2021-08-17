@@ -1,0 +1,17 @@
+Henrique Medeiros Dos Reis
+March/15/2021
+
+Plataform used to develop: Linux-Fedora, and the language used is C++
+
+	In order to compile I just used the make file that is inside this folder and typed make in the command prompt.
+	
+	 My program has 1 bug. This bug happens when I have multiple variables reffering to the same location. The number for the reference count will not increment for all the variables, it will only increment for the 2 variables that are being used in that statement. 
+	 Example:
+	 a=b;
+	 b=c;
+	 c=d;
+	 d=e;
+	Instead of incrementing for all the values, it will first increment the reference count for only a and b, then only for b and c, whithout incrementing a, and so on.
+	
+	
+	I aproaced this project by first trying to make the lexical analyzer, the first point on it was to read every character, then second reading the token with the type correctly, lastly I handled the keywords. Secondly, I started the RDP, making sure the recuring was happening at the correct place and the recursion correctly. Finally, I started implementing what the RDP should actually do, every keyword and separating variables.

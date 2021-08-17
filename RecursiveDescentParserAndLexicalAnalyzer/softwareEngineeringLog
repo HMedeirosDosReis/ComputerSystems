@@ -1,0 +1,22 @@
+Henrique Medeiros dos Reis
+
+Mar/11/2021
+	Started project 1, following the instructions that were given in the handout.
+	I am having troubles with creating the DFA table. not sure how to store more than only one character in the state transitions
+	
+Mar/12/2021
+	I was able to figure it out how to make the table, drawing was very helpfull. I am still having problems on how to detect keyword.
+
+Mar/13/2021
+	My token class seem to be working properly, I started working in the grammar, only making sure that the recursions are taking correct positioning.
+	
+Mar/14/2021
+	Now I have to make it actually runs throught the file picking up the tokens and doing what they should do. 
+	
+	I am having some troubles with "compress" and multiple assigning variables.
+
+Mar/15/2021
+	Still trying to fix the same things, I noticed some other bugs that were flowing around. being pretty hard to manage the array
+	
+Mar/16/2021
+	I decided to change the data structure from 1 vector to 2 linked lists. That actually helped a lot. The manegment troubles were pretty easy to correct, and the ideas were not so far from the correct way to do it. So there were just a couple of things to change. The problem with the compress was fixed, and the problem with multiple assignments is way better now, even though it is not perfect yet. The other parts of the code looks like it is running correctly 
